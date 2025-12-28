@@ -7,6 +7,58 @@ redirect_from:
   - /about.html
 ---
 
+
+
+Education
+======
+* University of California, San Diego, Bachelor of Science (September 2024 - Present) 
+
+Experiences and Achievements
+======
+* Research on AI Gaze Tracking at Prof. De Sa’s Cognitive Science Lab at UCSD (June 2025 - Present)
+  * Position: Student Researcher  
+  * With Convolution LSTM and Hourglass network, designed a model generating heat-maps and 3D landmarks for eyes images and coded it with PyTroch
+  * Designed a CVAE network for calibration and personalized data stability with Semi-supervised Semantic Alignment mechanics, as well as group sparsity of features; trying to add personalized fine tuning tools
+  * Generated 8000+ eye data with UnityEyes and collected real word datasets; designed data polluting functions with Numpy and OpenCV for model robustness, including head pose changing, swirling, Gaussian filters, upsizing, etc
+  * Fleshed out the datasets to over 20000 pictures and added OpenCV techniques to refine model stability on low-quality, multi-target pictures and designing pre-calibration model by computer graphic knowledge such as Retinex and SH
+  * Supervisor: Prof. Virginia De Sa, Dr. Shuangquan Feng
+
+* Research on Image Generating & Filtering Model for Novel at Tsinghua University (May 2023 - September 2023)
+  * Position: Student Researcher
+  * Learned text processing technology such as snowNLP and AI image generation algorithms such as BERT, coded them out with PyTroch
+  * Collected and augmented, with Stanza and basic technological skills such as banned-words, RE filtering and relativity ranking, 600+ texts (with grammar trees selecting key words) and 1300+ pictures (with Numpy and self-made style transplanting model with CNN) for model training
+  * Built a novel illustration generation model with BERT & VGG; filtering out pornographic or violent results with Resnet and related models
+  * Wrote a 11-pg paper; Presented at 20233rd Intl. Workshop on Frontiers of Graphics & Image Processing
+  * Now Handing on refining the generation-filtering system with small batched, data-efficient semi-supervised learning and apply it to proper presentations generation, bias / false image / irrational prompts filtering;
+  * Supervisor: Prof. Yi Yang and Dr. Sansi Li
+
+* Website Including Registration and Publication System Named www.luomiart.com (August 2024 - Present)
+  * Designed datasets with SQL, accommodating more than 500 articles and 100 users
+  * Updated the datasets for few times while learning snowflake structure; built datasets with relationship between publication, registration payment and location data; ·With PHP, wrote code to load dynamic (small animate resources) and static resources (pictures and videos); re-organized some back end pieces such as asynchronous presentation of comments;
+  * Learning ETL designing system; trying to rebuild the JAVA based data management system on Kafka (for event data capture), Spark (data processing and loading to optimized BigQuery), and Airflow (for task organizing) 
+  * Personal Project
+  
+Skills
+======
+* Python and surrounding skills: Python, Pytorch, Numpy, Pandas, Pillow, COCO Tools;
+* Web technology: Comprehension of IIS server tech; SQL for database; PHP for text loading, user registration
+and payment services; Javascript and NodeJS;
+* Programming with Java: Searching, hash, DP, graph theory, data structures, prefix algorithms, etc.;
+* AI theories and technology: Image augmentation, classification, segmentation and generating tech;
+large-scale image data processing and augmentation design; transformers and multimodal AI;
+* Capacity to work on server clusters: basic knowledge about Virtual Machine and Linux; Nautilus
+and Kubernetes and Jupiter; familiarity with Colab;
+* Maths, Statistics and Machine Learning: linear algebra, calculus and statistics; maths-required
+algorithms for Machine learning.
+
+Service and leadership
+======
+* Formal member of HKN student group associated with UCSD CSE and ECE department, joined more than 10 reachouts to local middle schools; helped with class slides and coding issues for over 40 hours
+* Member of DS3 community, a student group working on hand-on, real-world data science and AI projects
+
+
+
+
 <!--
 This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. Incidentally, these same features make it a great template for anyone that needs to show off a professional template!
 
